@@ -132,7 +132,7 @@
   background-position: center center;
   background-size: cover;
   width: 100%;
-  height: 300px; /*任意の高さに調整*/
+  height: 200px; /*任意の高さに調整*/
 }
 
 .item:nth-child(1) {
