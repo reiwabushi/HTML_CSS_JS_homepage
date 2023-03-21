@@ -89,14 +89,7 @@
 
 .item {
   position: relative;
-  width: 100%;
-  max-width: 350px;
-  margin-bottom: 30px;
-}
-
-.item img {
-  width: 100%;
-  height: auto;
+  overflow: hidden;
 }
 
 .item .overlay {
@@ -133,16 +126,4 @@
   background-size: cover;
   width: 100%;
   height: 200px; /*任意の高さに調整*/
-}
-
-.item:nth-child(1) {
-  background-image: url("blog-793047_640.jpg");
-}
-
-.item:nth-child(2) {
-  background-image: url("faisal-BI465ksrlWs-unsplash.jpg");
-}
-
-.item:nth-child(3) {
-  background-image: url("a-book-657618_640.jpg");
 }
